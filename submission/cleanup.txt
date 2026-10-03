@@ -8,3 +8,9 @@ NAT gateway nat-0a53a1c979fefe883: deleted.
 Load balancer ai-inference-alb-dcbade37: not found.
 VPC vpc-0ffbca25d99ba9908: not found.
 Elastic IP allocation eipalloc-01d39b55bbedc2520: not found.
+
+Second deployment for VM benchmark screenshot — 2026-10-03 17:27 UTC
+Terraform apply of the saved destroy plan: 0 added, 0 changed, 27 destroyed.
+terraform state list: empty.
+EC2 i-0bc57faa7e16523e7 (CPU): terminated.
+EC2 i-03fa10cc05c353091 (Bastion): terminated.

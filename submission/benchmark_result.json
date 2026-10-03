@@ -1,5 +1,5 @@
 {
-  "recorded_at_utc": "2026-10-03T15:37:39.628284+00:00",
+  "recorded_at_utc": "2026-10-03T17:15:59.820714+00:00",
   "architecture": "x86_64",
   "versions": {
     "python": "3.10.12",
@@ -18,17 +18,17 @@
   },
   "n_jobs": 2,
   "decision_threshold": 0.5,
-  "data_load_seconds": 0.9482701740000721,
-  "training_seconds": 2.237538663999885,
+  "data_load_seconds": 0.9943227109999953,
+  "training_seconds": 2.2961255149999715,
   "best_iteration": 68,
   "auc_roc": 0.9768480003847346,
   "accuracy": 0.9995084442259752,
   "f1": 0.8478260869565217,
   "precision": 0.9069767441860465,
   "recall": 0.7959183673469388,
-  "latency_1_row_ms": 0.5112239999789381,
+  "latency_1_row_ms": 0.5392780000192943,
   "latency_repeats": 50,
-  "throughput_1000_rows_per_second": 555830.3828068696,
+  "throughput_1000_rows_per_second": 530261.633741419,
   "throughput_repeats": 10,
   "inference_timing": "median predict_proba call; excludes data loading and model training"
 }
