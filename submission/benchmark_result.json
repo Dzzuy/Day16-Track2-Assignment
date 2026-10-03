@@ -1,0 +1,34 @@
+{
+  "recorded_at_utc": "2026-10-03T15:37:39.628284+00:00",
+  "architecture": "x86_64",
+  "versions": {
+    "python": "3.10.12",
+    "lightgbm": "4.7.0",
+    "sklearn": "1.7.2",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6"
+  },
+  "dataset_rows": 284807,
+  "fraud_rows": 492,
+  "seed": 16,
+  "split": {
+    "train": 170883,
+    "validation": 56962,
+    "test": 56962
+  },
+  "n_jobs": 2,
+  "decision_threshold": 0.5,
+  "data_load_seconds": 0.9482701740000721,
+  "training_seconds": 2.237538663999885,
+  "best_iteration": 68,
+  "auc_roc": 0.9768480003847346,
+  "accuracy": 0.9995084442259752,
+  "f1": 0.8478260869565217,
+  "precision": 0.9069767441860465,
+  "recall": 0.7959183673469388,
+  "latency_1_row_ms": 0.5112239999789381,
+  "latency_repeats": 50,
+  "throughput_1000_rows_per_second": 555830.3828068696,
+  "throughput_repeats": 10,
+  "inference_timing": "median predict_proba call; excludes data loading and model training"
+}
